@@ -1,0 +1,64 @@
+# FERRAMENTAS UTILIZADAS ;
+	plugin live server 
+	plugin emmet auto completo com padrões
+
+# INSPETOR DE ELEMENTOS
+	chrome  - F12 
+	manipular elementos, apenas para estudo não sendo possível atualizar o site. 
+
+# ESTRUTURA BÁSICA DO HTML
+	index.html - Página principal, nome padrão indicando o início de tudo
+	<html> - primeira parte
+		<head> - cabeçalho, tudo que carregará antes de exibir para o usuário
+			<title>Meu primeiro HTML</title> - Título da página
+		</head> 
+		<body> - Tudo que aparecerá para o usuário
+			Meu primeiro HTML
+		</body> 
+	</html> 
+	
+# FALANDO SOBRE TAGS
+	<i></i> - Deixa o texto em Itálico
+	<strong></strong> - Deixa o texto em Negrito
+	<strong><i>#</i></strong> - Negrito e Itálico
+	<input type="text, number, color" /> - Sozinho é um campo, não necessita de fechamento. 
+	<img width="150"src=""/> - Width especifica o tamanho da imagem - endereço de uma imagem ou link, caminho .
+
+# ATRIBUTO DAS TAGS
+	Configurações especifica de cada TAG
+	id - Identificador deste elemento. Pode ser usando para referenciar conteudo da pagina .
+	style - Voltado para css, comandos direto no elemente .
+	class - Padronizar tudo da class de uma unica forma . 
+	src="" - endereço de uma imagem ou link, caminho .
+	target="#" - Abri uma nova aba . 
+	self="#" - Abre o link nele mesmo, comportamento padrão do link .
+	title="#" - Balão, clique aqui e confira . 
+
+# TEXTOS
+	<h1>#</h1> - Título, nível maior ou título principal . 
+	<h2>#</h2> - Sub-titúlo .
+	<p>#</p> - Parágrafo, ou texto .
+	<blockquote>#</blockquote> - Uma citação, frase de outro autor, observação .
+	<u>#</u> - Underline, linha em baixo ou siblinhado .
+	<mark>#</mark> - marca texto .
+	<p>#</p> - subscrito, caracter elevado acima da linha . 
+	<hr /> - coloca uma linha como divisão de setores .
+	<small><a href="#Identificador">(Voltar)</a></small> - Volta para o início da pagina . 
+
+
+# LISTAS ORDENADAS E NÃO ORDENADAS
+	Ordenadas - Quer dizer que terá uma ordem nessa lista .
+	<ol> - Lista 
+		<li>item 1</li> - Item da lista 
+		<li>item 2</li>
+		<li>Item 3</li>
+	</ol>
+	Não ordenadas - Não tem uma ordem, pode ser usada dentro de texto para sumário. Muito usada para menus .
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+
+# LINKS
+	<a href="#" title="#" target="#">#</a> - (Ancôra - Balão - Referência - Nova aba - Texto na tela) - quando vai para algum lugar especifico . 
