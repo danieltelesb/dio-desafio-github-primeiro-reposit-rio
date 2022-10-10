@@ -18,11 +18,67 @@
 	</html> 
 	
 # FALANDO SOBRE TAGS
+	<font>#</font> - Utilizada para formatar a fonte
+		#atributos
+			color="red" - Cor da fonte
+			face="Arial, Tahoma, 'Trebuchet MS'" - estilo de fonte
+
 	<i></i> - Deixa o texto em Itálico
-	<strong></strong> - Deixa o texto em Negrito
+	<strong></strong> - Deixa o texto em Negrito, com mais enfase 
 	<strong><i>#</i></strong> - Negrito e Itálico
 	<input type="text, number, color" /> - Sozinho é um campo, não necessita de fechamento. 
 	<img width="150"src=""/> - Width especifica o tamanho da imagem - endereço de uma imagem ou link, caminho .
+
+	#formulário
+		<form> - Campos onde o usuário digitará alguma informação, que ao enviar chega no servidor para fazer o processamento do dado recebido.
+			#atributos
+				name="siginup" - Para referencia de JavaScript
+				action="meusite.com.br/siginup" - Para onde os dados vai. 
+				method="" - GET - Os dados são exposto na Url
+							POST - Não manda pela url, é feito uma requisição.
+				target="" - Formulário mantem, mas as informações trafega em outra aba .
+				autocomplete="" - off - Não vai autocompletar, não trará as informações novamente.
+								  on -  Para salvar a senha no nagegador para novo acesso .
+				onsubmit="alert(enviei o formulário);" - Embutir um código javaScript para fazer algo ao clicar.
+		<input> - Coloca um campo na tela para o usuário digitar.
+			#tipos
+				type="text" - Campo texto
+				type="number" - Campo números
+				type="button" - Botão para enviar os dados 
+				type="Range" - Cria um campo scroll
+				type="Color" - Caixa de diálogo de cor 
+				type="Email" - Campo de email
+				type="Url" - Necessario http na frente
+				type="Date" - Selecionar data
+				type="week" - Define a semana do ano, funciona somente Chrome e Edge
+				type="Month" - Selecina o mês, funciona somente Chrome e Edge
+				type="Checkbox" - Valor boleano, Verdadeiro ou Falso, 0 ou 1, Sim ou não. Mais de uma opção
+				type="Radio" - Somente uma opção
+				type="Date" - Campo invisível para o navegador ou usuário.
+				type="File" multiple - Campo para envio de arquivos. Podendo ser enviado mais de 1
+				type="Search" - Só funciona no chrome - Campo de busca .
+		<checkbox> - Uma variável com mais de um valor, usando [] mostrará para o back-end que é uma lista. 
+		<radio> - Atribuindo um nome name="" apenas uma opção poderá ser selecionada. 
+		<button> - Apenas cria um botão clicável, fazendo algo apenas com incremento do JavaScript 
+					onclick="alert('Cliquei aqui')"
+					onmouseover="alert('Passei aqui')"
+				type="reset" - Vai limpar os campos do formulário.
+				type="submit" - Vai enviar o fomulário fazendo antes uma validação dos dados.
+
+			#atributo
+				onsubmit=""	- Usado para validar o formulário antes do envio para o servidor .
+		<select> - Lista pré-definidas para escolha 
+				selected - Uma opção vem pré definida para o usuário
+			#atributo
+				multiple - Selecionar mais de uma opção segurando a tecla CTRL .
+		<textarea> - Inserir mais informações do que um campo de uma linha só. Texto com mais de uma linha .
+			#atributo
+				rows="" - tamanho do campo pré definido em linhas ex:10 .
+				cols="" - largura em colunas pré definidas ex:50 .
+
+
+
+
 
 # ATRIBUTO DAS TAGS
 	Configurações especifica de cada TAG
@@ -34,9 +90,14 @@
 	self="#" - Abre o link nele mesmo, comportamento padrão do link .
 	title="#" - Balão, clique aqui e confira . 
 
+
+
 # TEXTOS
 	<h1>#</h1> - Título, nível maior ou título principal . 
 	<h2>#</h2> - Sub-titúlo .
+	<sub>#</sub> - Elevar o texto abaixo
+	<sup>#</sup> - Eleva o texto acima.
+	<b>#</b> - Bold - Negrito
 	<p>#</p> - Parágrafo, ou texto .
 	<blockquote>#</blockquote> - Uma citação, frase de outro autor, observação .
 	<u>#</u> - Underline, linha em baixo ou siblinhado .
@@ -44,6 +105,8 @@
 	<p>#</p> - subscrito, caracter elevado acima da linha . 
 	<hr /> - coloca uma linha como divisão de setores .
 	<small><a href="#Identificador">(Voltar)</a></small> - Volta para o início da pagina . 
+	
+
 
 
 # LISTAS ORDENADAS E NÃO ORDENADAS
@@ -59,6 +122,8 @@
 		<li>Item 2</li>
 		<li>Item 3</li>
 	</ul>
+
+
 
 # LINKS
 	<a href="#" title="#" target="#">#</a> - (Ancôra - Balão - Referência - Nova aba - Texto na tela) - quando vai para algum lugar especifico . 

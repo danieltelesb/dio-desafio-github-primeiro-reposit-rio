@@ -1,0 +1,24 @@
+#ESTRUTURA O HTML
+<div> - Ocupa a horizontal inteira .
+display:black por padrão
+
+<span> - Nâo vai ocupar o espaço inteiro da pagina
+
+<fieldsets> - Trabalha em conjunto com outra tag <legend>, mais estrutural com aparencia espefifica .
+
+<embeds> - Não é mais utilizada, serve para carregar arquivos externos.
+
+<iframe> - Nova instancia da pagina dentro da mesma página . Carrega arquivos externos. Pode afetar a segurança do site.
+
+
+
+#RESENHA: SOBRE CORES 
+Todos os navegadores suportar aprosimadamento 148 nomes de cores. 
+
+
+RGB - Combinação de Vermelho, Verde e Azul(Red,Green,Blue)
+HEX - Combinação de vermelho, verde e azul, mas descrito em Hexadecimal
+	#RRGGBB -> #FF0000 -> 255 0 0   1-Vermelho 2-Verde 3-Azul
+HSL - Matiz (Hue), Saturação(Saturation) e Iluminação(Lighten). A matiz tem os valores onde 0 é vermelho, 120 verde e 240 azul.
+RGBA - Mesmo que RGB, porém adicionado canal alpha(Transparencia)
+HSLA - Mesmo que HSL, porém adicionado canal alpha(Transparencia)

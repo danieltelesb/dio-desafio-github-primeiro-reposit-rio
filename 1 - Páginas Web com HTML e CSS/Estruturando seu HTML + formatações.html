@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML - Dio</title>
+    <style>
+        /* span{
+            font-weight: bold;
+            color: aquamarine;
+        } */
+        .row {
+            margin: 5px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 10px 0;
+            border-radius: 5px 35px;
+            border-color: orange;
+        }
+
+        .card1 {
+            border: solid 1px black;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            z-index: 1;
+            background-color: aquamarine;
+        }
+        .card2 {
+            border: solid 1px black;
+            width: 110px;
+            height: 110px;
+            position: absolute;
+            left: 35%;
+            top: 35%;
+            z-index: 2;
+            background-color: hsla(240,50%, 60%, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <font color="red" face="'trebuchet MS', Aria">Programe</font> o seu futuro global agora !
+    Só bora
+    <hr>
+
+    <p><span>Dio.</span>me</p>
+    <hr>
+
+    <h1>Formulário de cadastro</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="row">
+            <label>Nome:</label><input type="text">
+            <label>E-mail:</label><input type="text">
+        </div>
+    
+        <div class="row">
+            <label>Profissão:</label><input type="text">
+            <label>Empresa:</label><input type="text">
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Endereço</legend>
+        <div class="row">
+            <label>Endereço:</label><input type="text">
+            <label>Número:</label><input type="text">
+        </div>
+        
+        <div class="row">
+            <label>Bairro:</label><input type="text">
+        </div>
+        <div class="row">
+            <label>Cidade/UF:</label><input type="text">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>informações de contato</legend>
+        <div class="row">
+            <label>Celular:</label><input type="text">
+            <label>Whatsapp:</label><input type="text">
+        </div>
+    
+        <div class="row">
+            <label>Linkedin:</label><input type="text">
+            <label>Github:</label><input type="text">
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <div class="row">
+            <button type="reset">
+                Limpar
+            </button>
+            <button type="submit">
+                Enviar
+            </button>
+        </div>
+    </fieldset>
+
+    <hr>
+    <h1>Embeds vs Iframes</h1>
+
+    <!-- <embed src="#" width="300" height="250">
+
+    <video controls autoplay width="300" height="250">
+        <source src="#">
+    </video> -->
+    
+    <!-- <iframe src="http//:dio.me" width="300" height="250"> -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.868424095908!2d-46.83497245!3d-23.56962485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf001cba0369db%3A0x9f17e4f5d2d232db!2sParque%20da%20Aldeia%20de%20Carapicu%C3%ADba!5e0!3m2!1spt-BR!2sbr!4v1665346113975!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H3SXJus4ay4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi a vitae veritatis sed corporis cupiditate incidunt, natus suscipit autem unde delectus sequi. Error quas ea adipisci quasi praesentium quam!</span></p>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi a vitae veritatis sed corporis cupiditate incidunt, natus suscipit autem unde delectus sequi. Error quas ea adipisci quasi praesentium quam!</span></p> -->
+    <hr>
+
+    <div class="card1"></div>
+    <div class="card2"></div>
+</body>
+</html>

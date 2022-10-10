@@ -1,0 +1,35 @@
+#OQUE SÃO AS TAGS DE MÍDIA
+    Tudo que é relacionado a Som e Imagens.
+    Tendo Cada uma sua particularidade .
+
+
+#TAGS
+
+<img src="" width="200" /> - Pode ser tanto arquivo local como endereço de url. Omitindo
+e largura será utilizado o tamanho original da imagem.
+    .gif - Não tem resolução satisfatória.
+    .png - Comprime e ganha mais recursos sendo um pouco mais pesada.
+     Logo fundo transparente.
+    .jpg - Comprime mais perdendo resolução . Fundo branco.
+    #atributo
+        title="" - Balão quando você passa o mouse em cima. 
+        alt="" - Se não aparecer a foto, aparecerá a descrição.
+
+    <svg>
+    .svg - Usado calculos para curvas não perdendo resolução e não mostra os pixels.
+    </svg>
+
+    NVDA - Fará a leitura da pagina .
+<audio> - Evolucão da EMBED exclusiva para audio
+    #atributo
+        controls - Controle do audio, volume .
+        autoplay - è reproduzido automaticamente ao recarregar a pagina .
+    <source src="" /> - local fonte do audio.
+</audio> 
+
+
+<video> - 
+
+<track> - 
+
+iframe - 
