@@ -1,0 +1,42 @@
+#Sobre tabelas
+    -Forma de representar os dados de forma tabular em forma tabular comolinhas e colunas. 
+    -Forma a mais de apresentar dados . 
+    -Tabela mais simples e dinamicas com css.
+    -Infomações podem vim da propria maquina ou banco de dados. 
+    -Tabela antigamente era usada para estruturar o site de forma agrupada. 
+    -
+
+
+
+#Tag table 
+    <table></table> - Ela que vai iniciar a tabela de forma global, trabalhando com 
+    outras tags como (tr e td)
+    #atributos
+        border="1" - Estruturar a tabela com borda.
+        width="200" - Podemos colocar uma largura na nossa tabela . 
+        align="center" - Centralizar a tabela na tela. 
+        cellspacing="5" - Espaçamento entre as celulas.
+        cellpadding="'5" - Distancia entre as celulas e distancia da borda.
+        summary="" - Resumo dos dados contidos na tabela. 
+        colspan="2" - Ocupação da célula em questão de colunas. 
+        rowspan="2" - Ocupação da célula em questão de linhas 
+
+#Tag tr -  
+    <tr></tr> - Linhas da tabela. Faz com que consigamos identificar aquela linha específica. 
+
+    <th></th> - Mostra para o navegador que essas células é o cabeçalho da nossa tabela.
+    Como regra a tabela tem que ter o nome mais curto possivel para acessibilidade.
+
+    <td></td> - Células
+
+    <tbody></tbory> - agrupamento de trechos de dados.Corpo da tabela. 
+
+    <thead></thead> - Usado para cabeçalho .
+
+    <tfoot><tfoot> - Rodapé da tabela . 
+
+    <caption></caption> - Será colocado ali, a descrição da tabela. 
+
+
+#Estilizando tabelas 
+   

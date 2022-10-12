@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+
+    <style>
+        /*
+        *Seletores : Definem em quais elementos nós vamos aplicar o CSS
+        * 1. Seletor de Tag/Tipo
+        * 2. Seletor de ID
+        * 3. Seletor de classes 
+        * 4. Seletor universal
+        * 5. Seletor de atributo*/
+
+        /*Seletor por tag*/
+        h1 {
+            background: darkblue;
+            color: lightgreen;
+        }
+        div {
+            background: lightblue;
+        }
+        li {
+            background: lightgreen;
+        }
+        /*Seletor por ID*/
+        #texto-boas-vindas, #explicacao-seletores {
+            background: red;
+            color: white;
+        }
+        /*Seletor por classe*/
+        .seletores-mais-comuns {
+            color: red;
+        }
+        .texto-maiusculo {
+            text-transform: uppercase;
+        }
+        /*Seletor universal*/
+        *{
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        /*[atrib=value]*/
+        [title~="Streaming"]{
+            background: orange;;
+        }
+        [title="Netflix"] {
+            color: red;
+        }
+        [title="Prime video"] {
+            color: darkblue;
+        }
+        [title="Spotfy"] {
+            color: orange;
+        }
+
+        [href^="http://"]{
+            background: lightcoral;;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <h1>Seletores CSS</h1>
+    <p id="texto-boas-vindas">Bem-Vindo</p>
+    <p id="explicacao-seletores">No CSS nós possuímos os seletores por ID</p>
+    <div>
+        <ul>
+            <li>
+                <a title="Streaming Netflix" href="https://www.netflix.com/">Netflix</a>
+            </li>
+            <li>
+                <a title="Streaming Prime Video" href="https://www.primevideo.com/">Prime video</a>
+            </li>
+            <li>
+                <a title="Spotfy" href="https://www.spotfy.com/">Spotfy</a>
+            </li>
+            <li>
+                <a >Disney Plus</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por Tipo:</b>Busca elementos por uma tag HTML Específica</li>
+            <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por (#)</b>Busca elementos através do atributo "id"</li>
+            <li class="seletores-mais-comuns"><b>Seletor por  (.)</b>Busca elementos através do atributo "class"</li>
+            <li><b>Seletor universal (*)</b>Seleciona todos os elementos HTML</li>
+            <li><b>Seletor por atributo ([atrib])</b>Seleciona elementos que possuem um atributo específico em nosso documento HTML e conseguimos também
+                buscar atributos com um valor específico.</li>
+        </ul>
+    </div>
+</body>
+</html>

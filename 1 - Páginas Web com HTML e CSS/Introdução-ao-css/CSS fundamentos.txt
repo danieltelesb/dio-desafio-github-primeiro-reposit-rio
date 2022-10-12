@@ -1,0 +1,47 @@
+#INTRODUÇÃO
+    #Oque é - Cascading Style Sheets, Ou folha de estilo em cascata. MEcanismo utilizado para adicionar estilo no HTML.
+    Como Cores, tamanhos de espaçamentos, localização de elementos, largura e autora. 
+    1997/199 Ficou popularmente conhecido e atualmente está na versão CSS3.
+    Não é uma linguagem de programação e sim de estilo .
+    Não é uma linguagem de marcação . 
+    Irá apenas declarar de como os elementos vai se apresentar na tela . 
+
+    #Oque pode ser criado com ele 
+    Layouts e estilização de pagina WEB; Pode personalizar da forma que quisermos  ex Netflix. 
+    Animações; Conseguimos animar os elementos de forma mais simples não usando outras linguagens. 
+    Formas geométricas e desenhos;
+    Filtros;
+    Contadores; Funcionam como variaveis. Como seções de forma incremental. 
+
+    #Formas de declaração
+    Propriedade - Caracteristica de um elemento do nosso HTML.
+        propriedade: valor;
+        ex - backgroung: red; - Irá definir a cor do fundo . 
+             color: white; - Irá definir a cor do texto .
+    CSS inline - Adicionamos o código CSS utilizando o atributo style dentro das tags HTML, elemento por elemento .
+        Não é muito recomendado usar dessa forma devido a dificuldade de gerencias os estilos do nosso site .
+        Definindo assim os estilos TAG por TAG não sendo possivel definir um estilos para varias tags de uma só vez . 
+        Pode ser vantajoso em casos de não ter acesso ao projeto CSS .
+        Esse modo é util para visualização de forma rápida antes de colocar em arquivo separado . 
+        Porém oque for definido de forma INLINE terá uma maior prioridade sobrescrevendo oque foi declarado de forma externa.
+    CSS interno - código dentro do HEAD do HTML nós conseguimos colocar atraves da tag Style o estilo css.
+    CSS Externo - Criado um arquivo com a extensão .css e vai chamar na pagina HTML na tag <link> referenciando o arquivo.
+        Desvantagem pode ser que fique sem estilo por algum tempo, dependendo da conexão porque o arquivo é baixado de forma separada.
+    
+    #DEPURAR O CSS
+        Conhecido como debug, é uma forma de identificar problemas no código-fonte de uma aplicação e entender seu comportamento.
+        Ferramenta utilizada é o DEV TOOLS com a possibilidade de ver como os recursos estão se comportando em tela. 
+
+
+#SELETORES
+    Definirá em quais elementos queremos aplicar nossos estilos .
+    SELETOR POR TIPO - Busca elementos por uma tag HTML especifica
+    SELETOR POR ID (#) - Busca elementos através do atributo "id"
+    SELETOR POR CLASSE (.) - Busca elementos através do atributo "class"
+    SELETOR UNIVERSAL (*) - Seleciona todos os elementos HTML
+    SELETOR DE ATRIBUTO ([atrib])- Seleciona elementos que possuem um atributo específico em nosso documento HTML e conseguimos também
+    buscar atributos com um valor específico.
+
+#COMBINADORES
+
+

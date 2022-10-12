@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+
+    <style>
+        table{
+            -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            border: solid 1px gray;;
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td {
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1
+        }
+        table tbody tr:hover td {
+            background-color: orange;
+            cursor: pointer
+        }
+
+    </style>
+</head>
+<body>
+    <table width="200" align="center"  cellspacing="0" cellpadding="15" summary="Nomes da família">
+        <caption>Tabela de idades da familia Teles</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha tabela</th>
+            </tr>
+            <tr id="1">
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="2">
+                <td>jessica</td>
+                <td>26</td>
+            </tr>
+            <tr id="3">
+                <td>Paulo</td>
+                <td>34</td>
+            </tr>
+            <tr id="4">
+                <td>Sylmara</td>
+                <td>30</td>
+            </tr>
+            <tr id="5">
+                <td>Zeoma</td>
+                <td>53</td>
+            </tr>
+            <tr id="6">
+                <td>Jesus</td>
+                <td>65</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -20,6 +20,8 @@ e largura será utilizado o tamanho original da imagem.
     </svg>
 
     NVDA - Fará a leitura da pagina .
+
+
 <audio> - Evolucão da EMBED exclusiva para audio
     #atributo
         controls - Controle do audio, volume .
@@ -28,8 +30,16 @@ e largura será utilizado o tamanho original da imagem.
 </audio> 
 
 
-<video> - 
+<video> - Colocar vídeos em websites, recurso nativo do navegador. Praticamente
+todos os navegadores suportam mp4.
+<video controls>
+    <source src="">
 
-<track> - 
+    <track src="legenda.vtt" kind="captions" srclang="en" > - fica dentro da tag video.
+    <track default src="legenda.vtt" kind="captions" srclang="pt-br" >
+        Para legendas legenda.vtt, com arquivo separado para traduzir.
 
-iframe - 
+</video>
+
+<iframe> - Evolução do embed trazendo conteudo externo dentro do nosso código.
+    
