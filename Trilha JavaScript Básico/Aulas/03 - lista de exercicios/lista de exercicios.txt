@@ -1,0 +1,35 @@
+1) - FAÇA UM ALGORITMO QUE DADO AS 3 NOTAS TIRADAS POR UM ALUNO EM UM SEMESTRE DA FACULDADE CALCULE E UMPRIMA A
+    SUA MÉDIA E A SUA CLASSIFICAÇÃO CONFORME A TABELA ABAIXO:
+
+    MÉDIA = (NOTA 1 + NOTA 2 + NOTA 3) / 3;
+
+    CLASSIFICAÇÃO :
+    - MÉDIA MENOR QUE 5, REPRODADO;
+    - MÉDIA ENTRE 5 E 7, RECUPERAÇÃO;
+    - MÉDIA ACIMA DE 7, APROVADO; 
+
+2) O IMC - É UM CRITÉRIO DA OMS PARA DAR UMA INDICAÇÃO SOBRE A CONDIÇÃO DE PESO DE UMA PESSOA ADULTA.
+
+    FORMULA DO IMC:
+    IMC = PESO / (ALTURA * ALTURA)
+
+    ELABORE UM ALGORITMO QUE DADO O PESO E A ALTURA DE UM ADULTO MOSTRE SUA CONDIÇÃO DE ACORDO COM A TABELA ABAIXO.
+
+    IMC EM ADULTOS CONDIÇÃO:
+    - ABAIXO DE 18.5 -> ABAIXO DO PESO.
+    - ENTRE 18.5 E 25 -> PESO NORMAL.
+    - ENTRE 25 E 30 -> ACIMA DO PESO.
+    - ENTRE 30 E 40 -> OBESO.
+    - ACIMA DE 40 -> OBESIDADE GRAVE.
+
+3) Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta
+    e a escolha da condição de pagamento.
+    Utilize os códigos da tabela a seguir para ler qual a condição de pagamento escolhida e efetuar o calculo
+    adequado.
+
+    Código Condição de pagamento:
+
+    - Á vista Débito, recebe 10% de desconto;
+    - A vista no DInheiro ou PIX, recebe 15% de desconto;
+    - Em duas vezes, preço normal de etiqueta sem juros;
+    - Acima de duas vezes, preço normal de etiqueta mais juros de 10$;

@@ -43,5 +43,38 @@
     buscar atributos com um valor específico.
 
 #COMBINADORES
+    #Agrupamento de seletores 
+    Podemos aplicar as mesmas regras para vários seletores diferentes usando (,). Para não ficar copiando código para todos . 
 
+    #combinadores descendente
 
+    #combinadorFilho
+    Vai selecionar todos os combinadores que são filhos imediatos. Filho diretodo
+    elemento que está especificado no seletor a esquerda.
+    #combinadorIrmão
+
+#PROPRIEDADES DE DIMENSIONAMENTO E espaçamentos
+    #ALTURA
+        propriedades básicas do CSS3
+        *width: - largura
+        heigth: - altura
+
+        width: initial - Irá aplicar os valores que tem por padrão como "auto"
+
+        width: inherit - vai definir o valor da propriedade de acordo com o elemento pai
+
+    #ALTURA E LARGURA MAXIMA E MINIMA
+        Definir atraves dessas propriedades altura maxima e altura minima
+
+        *min-width - Se o conteudo texto ultrapassar o tamanho especificado ele crece para o lado.
+        *max-width - Se o conteudo texto ultrapassar o tamanho especificado ele quebra a linha. 
+        *min-height e max-height - Para essas propriedades a mesma coisa . 
+
+    #MARGIN
+        espaçamentos por fora dos elementos de forma externa.
+
+    #PADDING
+        Espaçamento nos elementos quanto a distancia interna.
+
+    #BOXSIZING
+        ela aceita dois valores, content box e border box
